@@ -1,0 +1,38 @@
+
+#tab1-a {
+	&:target {
+		z-index: 1;
+	}
+}
+#tab1-2 {
+	&:target {
+		z-index: 1;
+	}
+}
+.ch-tabs-triggers {
+	&:after {
+		clear: both;
+		content: " ";
+		display: block;
+		font-size: 0;
+		height: 0;
+		visibility: hidden;
+	}
+}
+.ch-box-lite {
+	min-height: 150px;
+	position: relative;
+}
+.info_tabs {
+	div {
+		div {
+			background: white;
+			left: 0;
+			min-height: @height0;
+			padding: 20px;
+			position: absolute;
+			top: 0px;
+			width: 90%;
+		}
+	}
+}
